@@ -21,3 +21,7 @@ Code has been customized for Freshbooks integrations.
  - Copy the certificate information into a `<certificate-name>.pem`.
  - Copy the private key information into a `<private-key-name>.pem`.
  - Now your ready to reference them in the code!
+
+## Using the server
+
+- Make sure that the callback uri is set to `https://127.0.0.1:3000/callback` on their service. When this app is running, their service will route to your local running instance and actually start to handle the oauth flow.
